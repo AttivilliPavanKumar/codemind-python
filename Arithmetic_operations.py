@@ -1,0 +1,12 @@
+a=int(input())
+b=int(input())
+c=a+b
+print(f"Sum:{c}")
+c=a-b
+print(f"Difference:{c}")
+c=a*b
+print(f"Product:{c}")
+c=a//b
+print(f"Quotient:{c}")
+c=a%b
+print(f"Remainder:{c}")
