@@ -1,2 +1,3 @@
 i=int(input())
-print(i%9)
+j=i%9
+print(j)
