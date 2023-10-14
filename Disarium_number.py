@@ -1,0 +1,14 @@
+num=int(input())
+length=len(str(num))
+temp=num
+s=0
+r=0
+while(temp>0):
+    r=temp%10
+    s=s+int(r**length)
+    temp=temp//10
+    length=length-1
+if(s==num):
+    print('True')
+else:
+    print('False')
